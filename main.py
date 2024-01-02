@@ -14,4 +14,4 @@ for file in os.listdir("./cogs"):
     if file.endswith(".py"):
         bot.load_extension(f"cogs.{file[:-3]}")
 
-bot.run("MTE5MTQ1NzM2NTg1ODQ3MTk5OA.Gn0AXy.NlzMPu0iP4jxjLoUXy5O6MW_JGDEZghCKPCaIQ") #токен
+bot.run("") #токен
